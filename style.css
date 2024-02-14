@@ -5,6 +5,7 @@
   margin: 0;
   border: 0;
   padding: 0;
+  text-decoration: none;
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
 }
@@ -111,6 +112,23 @@ main .info h3 {
 }
 .info .social img:hover {
   filter: grayscale(0);
+}
+
+footer {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 30px;
+  color: var(--gray-color-ligth);
+}
+footer > a {
+  color: var(--gray-color-ligth);
+  padding-bottom: 3px;
+  border-bottom: 1px solid transparent;
+  transition: 0.3s all ease-in-out;
+}
+footer >a:hover {
+  color: var(--green-color-dark);
+  border-bottom-color: var(--green-color-dark);
 }
 
 @media (max-width: 500px) {
