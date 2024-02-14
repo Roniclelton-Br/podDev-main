@@ -121,13 +121,11 @@ footer {
 }
 footer > a {
   color: var(--gray-color-ligth);
-  padding-bottom: 3px;
-  border-bottom: 1px solid transparent;
   transition: 0.3s all ease-in-out;
 }
 footer >a:hover {
   color: var(--green-color-dark);
-  border-bottom-color: var(--green-color-dark);
+  text-decoration: underline;
 }
 
 @media (max-width: 500px) {
