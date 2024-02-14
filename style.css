@@ -94,7 +94,6 @@ main .info h3 {
 }
 .input-area button:hover {
   background-color: var(--green-color-light);
-  color: var(--gray-color-ligth);
 }
 .info .social {
   width: 100%;
